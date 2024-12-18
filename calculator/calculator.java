@@ -1,3 +1,5 @@
+package calculator;
+
 import java.util.*;
 
 public class calculator {
@@ -44,8 +46,7 @@ public class calculator {
         default: System.out.println(Operation);
         return;
     }
-      System.out.println(x +" " +Operation +" " + y +"result");
+      System.out.println(x +" " +Operation +" "+ y +"+result");
 
    } 
-
 }
